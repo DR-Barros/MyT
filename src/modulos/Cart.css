@@ -1,0 +1,8 @@
+.Carro {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.Carro_img {
+    height: 50px;
+}
