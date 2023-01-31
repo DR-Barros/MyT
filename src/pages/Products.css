@@ -1,0 +1,31 @@
+@media only screen and (min-width: 768px){
+    .products{
+        display: grid;
+        grid-template-columns: 100px auto;
+        margin: 0 10px 0 10px;
+
+    }
+    .mostrar-Productos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (min-width: 1024px){
+    .products{
+        margin: 0 20px 0 20px;
+
+    }
+    .mostrar-Productos{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media only screen and (min-width: 1440px){
+    .products{
+        width: 80%;
+        margin: auto;
+
+    }
+    .mostrar-Productos{
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

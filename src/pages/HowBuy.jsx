@@ -3,7 +3,9 @@ import React from "react";
 function HowBuy(){
     return (
         <>
-            <h1>Cómo comprar</h1>
+            <div className="Tittle">
+                <h1>Cómo comprar</h1>
+            </div>
             <ol>
                 <li>
                     Selecciona el o los productos que deseas comprar pinchando el botón “comprar” y será agregado a tu carro de compra.

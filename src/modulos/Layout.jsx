@@ -2,10 +2,10 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Menu from "./Menu";
 
-function Layout () {
+function Layout ({carro}) {
     return(
         <>
-            <Menu />
+            <Menu carro={carro} />
             <Outlet />
         </>
     )

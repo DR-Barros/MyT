@@ -1,0 +1,34 @@
+.Tittle{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Tittle h2{
+    background-color: rgba(146, 146, 146, 0.5);
+    margin: auto;
+    padding: 10px;
+}
+.Home-tittle{
+    background-image: url("../resources/tittle-img.jpg");
+}
+.Home-catalogo{
+    text-align: center;
+}
+.Home-about{
+    text-align: center;
+}
+@media only screen and (min-width: 768px){
+    .Home-tittle{
+        height: 450px;
+        padding-top: 150px;
+    }
+    .Tittle h2{
+        font-size: 2.5em;
+    }
+    .Home-cuerpo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -1,0 +1,36 @@
+.Admin-login{
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    width: 300px;
+    padding: 25px;
+    border: solid black 1px;
+    border-radius: 25px;
+}
+.Admin-login input{
+    margin-bottom: 15px;
+}
+.Admin-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Admin-product{
+    display: grid;
+    grid-template-columns: 150px 3fr 2fr 1fr 3fr 2fr 3fr 1fr 1fr;
+}
+.Admin-product img{
+    width: 150px;
+    margin: 0;
+}
+.Admin-product_info{
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+.Admin-product button {
+    margin: auto;
+    height: 20px;
+}
