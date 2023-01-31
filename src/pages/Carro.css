@@ -1,0 +1,11 @@
+@media only screen and (min-width: 1024px){
+    .carroPage{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) 50px;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+    .carroPage form{
+        grid-column: 1 / -1;
+    }
+}

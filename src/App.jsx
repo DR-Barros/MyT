@@ -9,6 +9,7 @@ import db from './modulos/Firebase';
 import { useEffect, useState, React } from 'react';
 import { collection, getDocs } from "firebase/firestore";
 import Admin from './pages/Admin';
+import Carro from './pages/Carro';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
             <Route path='Como Comprar' element={<HowBuy/>} />
             <Route path='Contacto' element={<Contact/>} />
             <Route path='Administrar' element={<Admin datos={datos}/>} />
+            <Route path='Carro' element={<Carro carro={carro}/>} />
           </Route>
         </Routes>
     </BrowserRouter>

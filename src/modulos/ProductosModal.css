@@ -9,8 +9,14 @@
     text-align: center;
 }
 .productModal{
-    margin: 50px auto;
+    margin: 50px 10px;
     background-color: white;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+.productModal-description{
+    text-align: justify;
 }
 @media only screen and (min-width: 768px){
     .productModal-container{
@@ -19,6 +25,8 @@
     .productModal{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin: 50px 30px;
+        padding: 25px;
     }
     .productModal-description{
         grid-column: 1 / 3;
@@ -27,5 +35,9 @@
 @media only screen and (min-width: 1024px){
     .productModal-container{
         top: 120px;
+    }
+    .productModal{
+        margin: 50px 50px;
+        background-color: white;
     }
 }

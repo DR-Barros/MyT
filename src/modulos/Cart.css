@@ -3,6 +3,13 @@
     display: flex;
     align-items: center;
 }
+.Carro_check{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    opacity: 0;
+    z-index: 6;
+}
 .Carro_img {
     height: 50px;
 }
@@ -15,4 +22,25 @@
     background-color: white;
     border: 2px solid black;
     border-radius: 10px;
+}
+.Carro_modal{
+    display: none;
+}
+.Carro input:checked ~.Carro_modal{
+    display: grid;
+    grid-template-columns: 150px 70px;
+    position: absolute;
+    background-color: white;
+    top: 125px;
+    right: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+.Carro_modal p{
+    margin: 5px auto;
+}
+.Carro_link{
+    text-decoration: none;
+    color: black;
 }
